@@ -1,0 +1,29 @@
+{
+    "backcast_length": 168,
+    "forecast_length": 24,
+    "stride": 24,
+    "batch_size": 64,
+    "embed_dim": 8,
+    "num_heads": 2,
+    "ff_hidden_dim": 256,
+    "num_blocks_per_stack": 3,
+    "patch_size": 8,
+    "hidden_dim": 256,
+    "thetas_dim": 8,
+    "context_length": 168,
+
+    "train_dataset_path": "./dataset/train",
+    "test_dataset_path": "/home/samy/Hourly/Datasets/test_new/out",
+    "val_dataset_path": "./dataset/val",
+
+    "num_epochs": 100, 
+
+    "model_save_path": "./checkpoints/GridFlow_encoder_mlp_add2",
+    "result_path": "./new_results/GridFlow_encoder_mlp_add2",
+    "patience": 10,
+
+    "loss": "huber",
+    "learning_rate": 0.0001,
+    "lradj": "type1",
+    "method_decom" : "seasonal_decompose"        
+}

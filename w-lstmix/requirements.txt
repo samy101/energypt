@@ -1,0 +1,10 @@
+torch
+numpy
+pandas
+statsmodels
+scikit-learn
+tqdm
+matplotlib
+pyarrow
+PyWavelets
+huggingface-hub
