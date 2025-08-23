@@ -4,6 +4,20 @@ The emergence of pre-trained models has transformed many fields, including compu
 
 ---
 
+
+## Repository Structure
+```
+energypt/
+├── dataset_in/ # In-distribution datasets
+├── dataset_out/ # Out-of-distribution datasets
+├── MixForecast/ # MixForecast model implementation, experiments, and results
+├── energy-ttm/ # Energy-TTMs model implementation, experiments, and results
+└── w-lstmix/ # W-LSTMix model implementation, experiments, and results
+```
+
+Each model folder includes the **code, pre-trained weights, and results** for reproducibility.
+
+
 # Pre-trained Models for Load Forecasting
 
 ## Generic Pre-trained Models
