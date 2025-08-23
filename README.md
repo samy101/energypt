@@ -2,6 +2,8 @@
 
 The emergence of pre-trained models has transformed many fields, including computer vision, natural language processing, and speech recognition, by enabling robust, task-agnostic representations that generalize well across diverse downstream tasks. We present three pre-trained models for load forecasting. The proposed models include Energy-TTMs (adapted from IBM's Tiny Time Mixers), W-LSTMix, and MixForecast. These models are pre-trained on a large-scale energy metering dataset, with 1.26 billion readings, collected from 76,217 real buildings spanning multiple regions, building types, and usage scenarios. This extensive training enables the models to capture complex temporal patterns across diverse building types and operational scenarios. We benchmark the performance of our pre-trained models against six recent time series foundation models (TSFMs), such as Chronos, Lag-Llama, Moirai, TimesFM, TTMs, and MOMENT, as well as multiple traditional and machine learning-based forecasting models, under zero-shot and transfer learning settings, on a large-scale real-world dataset of over 1,767 residential and commercial buildings for the task of short-term load forecasting (STLF). Our results show our pre-trained models can outperform task-specific models in zero-shot settings, highlighting their generalizability and versatility. Finally, we share insights to guide future development of pre-training models for energy data analytics.
 
+✅ **IMPORTANT:** Due to a technical error, the submitted version contains incorrect results for the Energy-TTMs model. Please refer to our [revised draft](paper-revised.pdf) for the corrected final results.
+
 ---
 
 
@@ -144,10 +146,9 @@ We consider the following categories of models, following the evaluation protoco
 ## Results (Updated)
 
 ```diff
-✅ 
-+ Note: These are our final results after fixing an error.
-+ Due to a technical error, the submitted version contains incorrect results for our Energy-TTMs model.
-+ The correct results can be verified in the respective model folders, which include both the reproducible code and the results for each dataset.
+✅ Note: These are our final results after fixing an error.
+✅ Due to a technical error, the submitted version contains incorrect results for our Energy-TTMs model.
+✅ The correct results can be verified in the respective model folders, which include both the reproducible code and the results for each dataset.
 ```
 
 The following tables compare model performance:
